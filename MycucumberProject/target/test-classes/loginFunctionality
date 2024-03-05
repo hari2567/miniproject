@@ -1,0 +1,25 @@
+Feature: : LoginFunctionality
+   As a user of the E-commerce application
+  I want to be able to login into my account
+  so that I can access personalised features make purchases
+
+  Scenario: successful Login
+    Given I am on the login page
+    When  I check imagelogo is displayed
+    And I check heading element is displayed
+    And I check username element is dispalyed
+    And I check password element is displayed
+    And I check button is dispalyed
+
+
+
+
+  
+
+
+
+  Scenario: Successful Login
+    Given I am on the login page
+    When I enter valid username and password
+    And I click on the login button
+    Then I should be redirected to the home page

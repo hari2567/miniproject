@@ -1,0 +1,12 @@
+Feature: : LogoutFunctionality
+  As a user of the E-commerce application
+  I want to be able to logout into my account
+  so that I can access personalised features make purchases
+
+  Scenario: Successful logout
+    Given I am on the logout page
+    When I enter valid username and password
+    And I click on the login button
+    When I click on account page
+    And I click on logout button
+    Then I should be redirected to the home page logout
